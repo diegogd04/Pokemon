@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange">
+
+        <TextView
+            style="@style/detail_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pokemon_list_toolbar_title" />
+
+    </Toolbar>
+
+    <LinearLayout
+        android:id="@+id/pokemon_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/pokemon_margin">
+
+        <TextView
+            android:id="@+id/pokemon_id_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/tools_pokemon_id" />
+
+        <TextView
+            android:id="@+id/pokemon_name_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/tools_pokemon_name"
+            android:layout_marginStart="@dimen/pokemon_margin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pokemon_layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/pokemon_margin">
+
+        <TextView
+            android:id="@+id/pokemon_id_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/tools_pokemon_id" />
+
+        <TextView
+            android:id="@+id/pokemon_name_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/tools_pokemon_name"
+            android:layout_marginStart="@dimen/pokemon_margin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pokemon_layout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/pokemon_margin">
+
+        <TextView
+            android:id="@+id/pokemon_id_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/tools_pokemon_id" />
+
+        <TextView
+            android:id="@+id/pokemon_name_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/tools_pokemon_name"
+            android:layout_marginStart="@dimen/pokemon_margin" />
+
+    </LinearLayout>
+
+</LinearLayout>

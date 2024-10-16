@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">pokemon</string>
+    <string name="pokemon_list_toolbar_title">Pokemon</string>
+    <string name="tools_pokemon_id">#</string>
+    <string name="tools_pokemon_name">Name</string>
+    <string name="detail_ability_title">Ability:</string>
+    <string name="tools_pokemon_ability">Ability</string>
 </resources>
